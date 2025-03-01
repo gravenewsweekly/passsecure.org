@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features | Secure Password Generator</title>
+    <style>
+        /* Global Styles */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+        body {
+            background: linear-gradient(135deg, #1e1e2f, #3a3a5a);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Container */
+        .container {
+            max-width: 600px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 { font-size: 2rem; margin-bottom: 15px; }
+        p { font-size: 1.1rem; margin-bottom: 20px; line-height: 1.6; }
+        
+        /* Features List */
+        .features-list {
+            text-align: left;
+            font-size: 1.1rem;
+            margin-top: 20px;
+        }
+
+        .features-list li {
+            margin-bottom: 10px;
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .features-list li::before {
+            content: "✔️";
+            color: #ffdd57;
+            font-size: 1.2rem;
+            margin-right: 10px;
+        }
+
+        /* Navigation */
+        .nav {
+            margin-top: 20px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #ffdd57;
+            font-size: 1rem;
+            padding: 10px 15px;
+            border-radius: 10px;
+            background: rgba(255, 221, 87, 0.2);
+            transition: 0.3s;
+        }
+
+        .nav a:hover { background: rgba(255, 221, 87, 0.5); }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🔒 Features of Our Password Generator</h1>
+        <p>
+            Our **Secure Password Generator** is designed to create **strong, unbreakable passwords**  
+            for all types of websites, ensuring your security online.
+        </p>
+
+        <ul class="features-list">
+            <li>Generates **highly secure passwords** instantly</li>
+            <li>Supports **social media, gaming, and banking** websites</li>
+            <li>Built-in **real-time strength checker**</li>
+            <li>Advanced **moderation system** to block weak passwords</li>
+            <li>Completely **free & open-source**</li>
+            <li>Mobile-friendly **modern UI design**</li>
+        </ul>
+
+        <!-- Navigation -->
+        <div class="nav">
+            <a href="password.html">🔑 Password Generator</a>
+            <a href="about.html">ℹ️ About Us</a>
+            <a href="contribute.html">🚀 Contribute</a>
+            <a href="donate.html">❤️ Donate</a>
+        </div>
+    </div>
+
+</body>
+</html>
